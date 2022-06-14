@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head><!--no css haha no time-->
+        <style>
+            
+        </style>
+    </head>
+<body>
+    <script>
+        function play() {
+            var audio = new Audio('sounds/test.mp3');
+            audio.play();
+             }
+    </script>
+    <p>james pls don't look at my code </p>
+    <button onclick="setTimeout('play()',1000)">sound test</button>
+
+    <h3>how to play</h3>
+    This is a game where you are basically a random dude who was <br>
+    kiddnapped by some shady science company. You are sent to retreve <br>
+    something in a giant hole that the facility was built around. <br>
+    The hole has floors that you have to beat to progress, where the higher number the floor, 
+    the harder it is to beat.<br>
+
+    There is equipment in every floor that you can use to be good.<br>
+    You don't need to wear any armor if you don't plan on getting hit.<br>
+    So yeah, press the play button to start.=>
+    <button id="start_game" onclick="start()">start game</button>
+    <h6><em>pls pay attention to the audio or else you're screwed. </em></h6>
+    <div id='buttons'>
+        <p>controls/actions whatever you want</p>
+        <button id="attack">attack</button><br>
+        <button id="move">move</button>
+
+    </div>
+    <script>
+        //lists
+        let floors=[
+            {
+                floor: 1,
+                equipment: 
+                    [
+                        {
+                        name: "stone",
+                        damage: 2
+                        },
+                        {
+                        name: "stick",
+                        damage: 1
+                        },
+                        {
+                        name: ""
+                        },
+                    ]
+            },
+            {
+                floor: 2,
+            },
+            {
+                floor: 3,
+            },
+            {
+                floor: 4,
+            },
+            {
+                floor: 5,
+            },
+            
+        ];
+    
+    </script>
+</body>
+</html>
